@@ -4,7 +4,7 @@ from telegram import ReplyKeyboardMarkup
 from telegram import ReplyKeyboardRemove
 from Parse import *
 
-d = start(login='89105852891', password='Savenkov1228!!!')
+d = start(login='', password='')
 
 def Monday(update, context):
     update.message.reply_text(str(' '.join(d['Понедельник'])))
